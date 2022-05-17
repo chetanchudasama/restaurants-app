@@ -1,0 +1,67 @@
+.section-food-type {
+  padding-left: 21px;
+  padding-right: 21px;
+}
+.section-food-type .food-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin-top: 26px;
+  list-style-type: none;
+  align-items: center;
+}
+.section-food-type .food-list .food-list-item {
+  margin-right: 22px;
+}
+.section-food-type .food-list .food-list-item:last-item {
+  margin-right: 0px;
+}
+.section-food-type .food-list .food-list-item figure {
+  margin-bottom: 0;
+  text-align: center;
+}
+.section-food-type .food-list .food-list-item figure img {
+  height: 18px;
+  width: 18px;
+}
+.section-food-type .food-list .food-list-item figure figcaption {
+  font-size: 6px;
+  line-height: 0px;
+  font-weight: 800;
+}
+/* .page-inner */
+  .section-food-type
+  .food-list
+  .food-list-item.veg
+  figure
+  figcaption {
+  color: #6a9902;
+}
+/* .page-inner */
+  .section-food-type
+  .food-list
+  .food-list-item.egg
+  figure
+  figcaption {
+  color: #eaa215;
+}
+/* .page-inner */
+  .section-food-type
+  .food-list
+  .food-list-item.non-veg
+  figure
+  figcaption {
+  color: #be360d;
+}
+.notactive.food-list-item{
+  opacity: 0.5;
+}
+.Active.food-list-item{
+    opacity: 1;
+}

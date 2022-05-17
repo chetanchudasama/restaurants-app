@@ -1,0 +1,45 @@
+#dataclick {
+  position: absolute;
+  z-index: -1;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#menuclick {
+  display: none;
+}
+#menuunclick {
+  display: block;
+}
+#clickconstruction {
+  position: absolute;
+  z-index: -1;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+#dataclick .section-slider-wrapper .slick-item{
+   transition: all linear 0s;
+}
+#dishclick{
+  display: none;
+}
+#dishunclick{
+  display: block;
+}
+.loader_wrapper{
+  display: inline-block;
+  vertical-align: -.125em;
+  border: .25em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: .75s linear infinite spinner-border;
+  text-align: center;
+  top: 34%;
+  left: 46%;
+  width: 3rem !important;
+  height: 3rem !important;
+  position: absolute;
+  margin: auto;
+}

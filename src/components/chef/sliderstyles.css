@@ -1,0 +1,27 @@
+.scrollhider::-webkit-scrollbar {
+  display: none !important;
+}
+
+.slick-slide[aria-hidden="true"]:not([tabindex="-1"])
+  + .slick-cloned[aria-hidden="true"] {
+  transform: scale(0.85);
+  transition: all 300ms ease-in-out;
+  background: red;
+}
+
+/*.slick-slide[aria-hidden="true"] + .slick-cloned[aria-hidden="true"] {
+   transform: scale(1.11) translateY(3.9%);
+    transition: all 300ms ease-in-out; 
+}*/
+/* body *:not(.slick-track):not(.slick-list){
+   
+  } */
+.slick-slide {
+  transform: scale(0.85);
+  transition: all 300ms ease-in-out;
+}
+.slick-center.slick-slide {
+  transform: scale(1) translateY(3.9%) !important;
+  transition: all 300ms ease-in-out !important;
+  width: 320px !important; 
+}

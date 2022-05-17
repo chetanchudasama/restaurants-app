@@ -1,0 +1,45 @@
+.aside {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-height: 100vh;
+  max-width: calc(100% - 550px);
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* @media only screen and (max-width: 576px) {
+	.aside {
+		display: none
+	}
+} */
+
+.aside-img {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: left center;
+  object-position: left center;
+}
+
+.aside-info{
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  text-align: center;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 600;
+}

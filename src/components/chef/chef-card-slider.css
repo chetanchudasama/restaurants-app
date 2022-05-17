@@ -1,0 +1,34 @@
+.slick-item {
+  padding-top: 64px;
+  padding-bottom: 40px;
+  max-width: 350px;
+  width: 100%;
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+
+.slick-item.slick-current {
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+@media only screen and (max-width: 576px) {
+  .slick-item {
+        max-width: 320px;
+        padding-top: 30px;
+        padding-bottom: 92px;
+    }
+}
+
+.slick-item .slider-item {
+  border-radius: 30px;
+  width: 300px;
+  -webkit-box-shadow: 5px 6px 12px 2px rgba(136, 136, 136, 0.25);
+  box-shadow: 5px 6px 12px 2px rgba(136, 136, 136, 0.25);
+  margin: 15px auto;
+  padding: 0 18px;
+}

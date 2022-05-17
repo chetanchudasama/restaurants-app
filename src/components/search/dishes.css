@@ -1,0 +1,167 @@
+.under-construction-section {
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.under-construction-section h3{
+    font-size: 26px;
+    margin: auto;
+    text-align: center;
+}
+
+.under-construction-section p{
+    text-align: center;
+    margin: 10%;
+}
+
+.page-inner {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 550px;
+  padding-bottom: 140px;
+  padding-top: 70px;
+}
+.staffBrowser .footer-wrapper-option{
+  bottom: 60px;
+}
+/* .staffBrowser .footer-wrapper-option{
+  bottom: 120px;
+} */
+.modalDishes{
+    bottom: 86px;
+    border-radius: 20px;
+    z-index: 9999;
+    width: 65%;
+}
+.modaldata{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.modal-title-heading{
+  display: flex;
+}
+.modal-title-heading > div{
+  margin-right: 10px;
+  height: 15px;
+  width: 15px;
+}
+.modal-title-number,
+.modal-title-heading p{
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 600; 
+  color: #717479;
+}
+.modalCuisines{
+  width: 100%;
+  border-radius: 45px 45px 0 0;
+  bottom: 0px;
+  overflow: initial;
+  z-index: 9999;
+}
+.modal-top-sec{
+  position: relative;
+  text-align: center;
+}
+.modal-top-sec .colse-btn{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #EAA315;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -42px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.modal-top-sec .colse-btn img{
+  height: 18px;
+  width: 18px;
+}
+.radio-item {
+  display: inline-block;
+  position: relative;
+  padding: 0 6px;
+  margin: 15px 0 0;
+  width: 50%;
+}
+
+.radio-item input[type='radio'] {
+  display: none;
+}
+
+.radio-item label {
+  color: #666;
+  font-weight: normal;
+}
+.modal-head{
+  padding-top: 20px;
+}
+
+.radio-item label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  left: 0px;
+  margin: 0 5px 0 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #717479;
+  background-color: transparent;
+}
+
+.radio-item input[type=radio]:checked + label:after {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  content: " ";
+  display: block;
+  background: #E8814D;
+}
+.modal-select-sec{
+ padding: 20px;
+}
+.modal-btn .clear-btn{
+  background: #FFFFFF;
+  box-shadow: -1px 1px 3px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 33px;
+  width: 158px;
+  height: 33px;
+  border: 0;
+}
+.modal-btn .apply-btn{
+  background: #E8814D;
+  box-shadow: -1px 1px 3px 1px rgba(0, 0, 0, 0.25);
+  width: 158px;
+  border-radius: 33px;
+  height: 33px;
+  border: 0;
+}
+.modal-backdrop{
+  position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+        opacity: .5;
+}

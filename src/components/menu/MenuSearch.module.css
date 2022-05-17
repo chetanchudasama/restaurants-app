@@ -1,0 +1,50 @@
+.section-search-items {
+  margin-top: 17px;
+  padding-left: 21px;
+  padding-right: 21px;
+}
+.row {
+  margin-left: 0;
+}
+.col {
+  padding-left: 0;
+}
+.input-group {
+  height: 32px;
+  max-width: 315px;
+}
+.append-item-left {
+  top: 2px;
+  border: none;
+}
+.form-control{
+
+}
+.input-group input.form-control {
+  border-radius: 4.5rem;
+  border: 1px solid #e8814d;
+  color: #626262;
+}
+.input-group input:hover,
+.input-group input:focus {
+  border: 1px solid #e8814d !important;
+  color: #626262;
+}
+::-webkit-input-placeholder {
+  color: #626262 !important;
+}
+:-ms-input-placeholder {
+  color: #626262 !important;
+}
+::-ms-input-placeholder {
+  color: #626262 !important;
+}
+::placeholder {
+  color: #626262 !important;
+}
+.btn-menu-bar {
+  padding: 0;
+  height: 32px;
+  width: 32px;
+  border: none;
+}

@@ -1,0 +1,15 @@
+body.prevent-scroll {
+    overflow: hidden;
+}
+
+body { -webkit-touch-callout: none !important; }
+a { -webkit-user-select: none !important; }
+
+@media only screen and (min-width: 576px) {
+	main.main{
+        pointer-events: none;
+    }
+}
+
+
+

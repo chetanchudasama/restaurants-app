@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cuirato</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/cuirato-icon_burgundy.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Cuirato Web App" />
+    <link
+      rel="apple-touch-icon"
+      href="%PUBLIC_URL%/cuirato-logo_burgundy.png"
+    />
+    <!--
+  manifest.json provides metadata used when your web app is installed on a
+  user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+-->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+  Notice the use of %PUBLIC_URL% in the tags above.
+  It will be replaced with the URL of the `public` folder during the build.
+  Only files inside the `public` folder can be referenced from the HTML.
+
+  Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+  work correctly both with client-side routing and a non-root public URL.
+  Learn how to configure a non-root public URL by running `npm run build`.
+-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./fonts/fonts.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script>
+      function longClickHandler(e) {
+        e.preventDefault();
+      }
+
+      $("body").longclick(250, longClickHandler);
+    </script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+  </head>
+  <body>
+    <main class="main" id="main">
+      <div id="root"></div>
+    </main>
+  </body>
+</html>

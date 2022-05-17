@@ -1,0 +1,33 @@
+.search-btn-div {
+	margin-left: auto;
+	margin-right: 32px
+}
+
+@media only screen and (max-width: 576px) {
+	.search-btn-div {
+		margin-right: 20px
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.search-btn-div {
+		margin-right: 15px
+	}
+}
+
+.search-btn-div .btn-search {
+	background-color: transparent;
+	border: 0px;
+	width: 32px;
+	height: 32px;
+	padding: 0px;
+	-webkit-box-shadow: none;
+	box-shadow: none
+}
+
+@media only screen and (max-width: 576px) {
+	.search-btn-div .btn-search {
+		width: 24px;
+		height: 24px
+	}
+}

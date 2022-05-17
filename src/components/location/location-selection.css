@@ -1,0 +1,47 @@
+.select-location {
+  max-width: 320px;
+  width: 100%;
+  margin-right: 15px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media only screen and (max-width: 576px) {
+  .select-location {
+    max-width: 180px;
+  }
+}
+
+.select-location select {
+  display: block;
+  font-family: "Nunito";
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #212529;
+  background-color: transparent;
+  background-image: url(../../assets/dropdown_arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid transparent;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.select-location select:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 576px) {
+  .select-location select {
+    background-size: 10px;
+    font-size: 16px;
+    padding-left: 2px;
+  }
+}

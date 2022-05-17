@@ -1,0 +1,16 @@
+.refer-container {
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.refer-container div.refer-top-bar {
+    margin-left: 50px;
+}
+.refer-container div.refer-content {
+    padding-top: 50px;
+}
+.referral-code-messgae{
+    font-size: 8px;
+    display: block;
+    float: right;
+}

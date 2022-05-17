@@ -1,0 +1,17 @@
+.long-press-swipe {
+  /* opacity: 0.8; */
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.instruction-dismiss-btn {
+  width: 15px;
+  height: 15px;
+  top: 10px;
+  position: fixed;
+  left: 10px;
+  z-index: 99;
+}
